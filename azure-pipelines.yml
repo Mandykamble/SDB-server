@@ -19,5 +19,9 @@ steps:
   displayName: 'Install express'
 
 - script: |
+    npm install mongoose
+  displayName: 'Install mongoose'
+
+- script: |
     npm test
   displayName: 'Run tests'
